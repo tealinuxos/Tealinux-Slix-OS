@@ -1,0 +1,44 @@
+---
+componentName:  architeaiso
+
+welcomeStyleCalamares:   false
+
+welcomeExpandingLogo:   true
+
+windowExpanding:    noexpand
+
+windowSize: 1050px,700px
+
+windowPlacement: center
+
+sidebar: widget
+
+navigation: widget
+
+strings:
+    productName:         ArchiTeaiso
+    shortProductName:    ArchTea
+    version:             72-1
+    shortVersion:        2023.12.28
+    versionedName:       Experimental
+    shortVersionedName:  Experimental
+    bootloaderEntryName: ArchiTea
+
+images:
+    productIcon:            "logo.png"
+    productLogo:            "squid.png"
+    productWelcome:         "idioma.png"
+
+style:
+   sidebarBackground:       "#FFF000"
+   sidebarText:             "#000000"
+   sidebarTextSelect:       "#333333"
+   sidebarTextHighlight:    "#2093d1"
+
+slideshow:               "show.qml"
+
+slideshowAPI: 2
+
+uploadServer :
+    type :    "fiche"
+    url :     "http://termbin.com:9999"
