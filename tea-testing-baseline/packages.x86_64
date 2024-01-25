@@ -54,6 +54,7 @@ sudo
 edk2-shell
 intel-ucode
 amd-ucode
+squashfs-tools
 
 ## Filesystem
 gparted
@@ -97,4 +98,3 @@ yay
 
 ## Alci Calamares
 alci-calamares
-squashfs-tools
