@@ -22,6 +22,8 @@ file_permissions=(
 	["/etc/gshadow"]="0:0:0400"
 	["/etc/group"]="0:0:0400"
 
+	["/usr/bin/calamares"]="1000:10:0755"
+
 	["/etc/skel/.config"]="1000:10:0755"
 	["/etc/skel/.zshrc"]="1000:10:0755"
 )
