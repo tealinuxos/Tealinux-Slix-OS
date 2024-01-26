@@ -128,3 +128,47 @@ wvdial
 xfsprogs
 xl2tpd
 zsh
+
+## Filesystem
+gparted
+btrfs-progs
+dosfstools
+exfatprogs
+f2fs-tools
+e2fsprogs
+jfsutils
+nilfs-utils
+ntfs-3g
+reiserfsprogs
+udftools
+xfsprogs
+
+## Desktop Environment
+gnome
+gnome-tweaks
+
+## Application
+firefox
+
+## Utility
+pipewire
+pipewire-alsa
+pipewire-audio
+pipewire-jack
+pipewire-pulse
+gst-plugin-pipewire
+wireplumber
+bluez
+networkmanager
+cups
+neovim
+neofetch
+oh-my-zsh-git
+zsh-theme-powerlevel10k-git
+noto-fonts-cjk
+noto-fonts-emoji
+yay
+
+## Alci Calamares
+alci-calamares
+

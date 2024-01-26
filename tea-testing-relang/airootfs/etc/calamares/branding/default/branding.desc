@@ -1,0 +1,49 @@
+---
+componentName:  default
+
+welcomeStyleCalamares:   false
+
+welcomeExpandingLogo:   true
+
+windowExpanding:    noexpand
+windowSize: 1280px,720px
+windowPlacement: center
+
+# sidebar: qml,top
+sidebar: none
+navigation: widget
+
+
+strings:
+    productName:         DTOS
+    shortProductName:    DTOS
+    version:             2023.08
+    shortVersion:        2023.08
+    versionedName:       DTOS
+    shortVersionedName:  DTOS
+    bootloaderEntryName: DTOS
+    productUrl:          https://distro.tube/dtos/
+    supportUrl:          https://distro.tube/dtos/
+    releaseNotesUrl:     https://distro.tube/dtos/
+
+
+uploadServer :
+    type :    "fiche"
+    url :     "http://termbin.com:9999"
+    sizeLimit : -1
+    
+images:
+    productLogo:         "logo.png"
+    productIcon:         "logo.png"
+    productWelcome:      "Welcome.png"
+
+slideshow:               "show.qml"
+    
+slideshowAPI: 1
+
+style:
+   SidebarBackground:    "#282c34"
+   SidebarText:          "#FFFFFF"
+   SidebarTextSelect:    "#cc0000"
+   SidebarTextHighlight: "#000000"
+
