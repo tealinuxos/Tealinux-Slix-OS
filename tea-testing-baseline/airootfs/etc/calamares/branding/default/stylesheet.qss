@@ -1,5 +1,9 @@
 /*
+ * SPDX-FileCopyrightText: no
+ * SPDX-License-Identifier: CC0-1.0
+ */
 
+/*
 A branding component can ship a stylesheet (like this one)
 which is applied to parts of the Calamares user-interface.
 In principle, all parts can be styled through CSS.
@@ -22,261 +26,136 @@ using `QComboBox` as a selector).
 This example stylesheet has all the actual styling commented out.
 The examples are not exhaustive.
 
+Use gammaray
+
 */
 
 
-/* ########## MAIN APPLICATION WINDOW ########## */
+/*** Main application window.
+ *
+ * The main application window has the sidebar, which in turn
+ * contains a logo and a list of items -- note that the list
+ * can **not** be styled, since it has its own custom C++
+ * delegate code.
+ */
 
 #mainApp {
-}
-
-#mainText{
-	font : bold 16px;
+    color: #d7d7d7;
+    background-color: #282c34;
 }
 
 #sidebarApp {
-
+    color: #d7d7d7;
+    background-color: #282c34;
+}
+#logoApp { 
+    background: none;
 }
 
-#logoApp {
-}
+/*** Welcome module.
+ *
+ * There are plenty of parts, but the buttons are the most interesting
+ * ones (donate, release notes, ...). The little icon image can be
+ * styled through *qproperty-icon*, which is a little obscure.
+ * URLs can reference the QRC paths of the Calamares application
+ * or loaded via plugins or within the filesystem. There is no
+ * comprehensive list of available icons, though.
+ */
 
-#sidebarMenuApp {
-	padding: 3px;
-	background-color: #292F34;
-}
+/*** Generic Widgets.
+ *
+ * You can style **all** widgets of a given class by selecting
+ * the class name. Some widgets have specialized sub-selectors.
+ */
 
 QWidget {
-	font: 16px;
-}
-
-QTextEdit, QListView {
-}
-QDialogButtonBox {
-}
-QAbstractSpinBox {
-}
-QListWidget::item:alternate {
-}
-
-
-#debugButton {
-	font: bold 8px;
-	color: #FFFFFF;
-}
-
-
-/* ########## TOOLTIP ########## */
-
-
-
-QPushButton {
-    font : 16px;
-}
-
-QDialogButtonBox {
-	dialogbuttonbox-buttons-have-icons: 0;
-}
-
-
-/* ########## QLIST VIEW ########## */
-
-QListView {
-		font: 16px;
-}
-
-
-/* ########## QLINE EDIT ########## */
-
-QLineEdit#LE_TestKeyboard {
-	font: 16px;
-}
-
-QLineEdit#m_passphraseLineEdit, QLineEdit#vgName,
-QLineEdit#m_confirmLineEdit {
-	font: 16px;
-}
-
-QLineEdit#textBoxUserVerifiedPassword, QLineEdit#textBoxVerifiedRootPassword {
-	font: 16px;
-}
-
-QLineEdit#textBoxFullName, QLineEdit#textBoxLoginName, QLineEdit#textBoxHostName,
-QLineEdit#textBoxUserPassword, QLineEdit#textBoxRootPassword {
-	font: 16px;
-}
-
-#textBoxFullName, #textBoxLoginName, #textBoxHostName, #textBoxUserPassword,
-#textBoxRootPassword, #textBoxAutoLogin, #vgName {
-	font: 16px;
-}
-
-#textBoxUserVerifiedPassword, #textBoxVerifiedRootPassword,
-#LE_TestKeyboard, #m_confirmLineEdit, #m_passphraseLineEdit {
-	font: 16px;
-}
-
-/* ##########PARTITION ########## */
-
-#partResizerWidget {
-	font: 16px;
-}
-
-/* ########## PAGE_USERSETUP ########## */
-
- #labelWhatIsYourName {
-	font: 16px;
-}
- #textBoxFullName {
-	font: 16px;
-}
- #labelFullName {
-	font: 16px;
-}
- #labelFullNameError {
-	font: 16px;
-}
- #username_label_2 {
-	font: 16px;
-}
- #textBoxLoginName {
-	font: 16px;
-}
- #labelUsername {
-	font: 16px;
-}
- #labelUsernameError {
-	font: 16px;
-}
- #hostname_label_2 {
-	font: 16px;
-}
- #textBoxHostName {
-	font: 16px;
-}
- #labelHostname {
-	font: 16px;
-}
- #labelHostnameError {
-	font: 16px;
-}
- #password_label_2 {
-	font: 16px;
-}
- #textBoxUserPassword {
-	font: 16px;
-}
- #textBoxUserVerifiedPassword {
-	font: 16px;
-}
- #labelUserPassword {
-	font: 16px;
-}
- #labelUserPasswordError {
-	font: 16px;
-}
- #checkBoxRequireStrongPassword {
-	font: 16px;
-}
- #checkBoxDoAutoLogin {
-	font: 16px;
-}
- #checkBoxReusePassword {
-	font: 16px;
-}
- #labelChooseRootPassword {
-	font: 16px;
-}
- #textBoxRootPassword {
-	font: 16px;
-}
- #textBoxVerifiedRootPassword {
-	font: 16px;
-}
- #labelRootPassword {
-	font: 16px;
-}
- #labelRootPasswordError {
-	font: 16px;
-}
-
-/* ########## COMBO BOX ########## */
-
-QComboBox {
-	font: 16px;
-}
-
-#mountPointComboBox::drop-down {
-	font: 16px;
-}
-
-/* ########## SPIN BOX ########## */
-
-QSpinBox {
-	font: 16px;
+    font: 16px;
+    color: #d7d7d7;
+    background-color: #282c34;
 }
 
 QLineEdit {
-	font: 16px;
+    font: 16px;
+    color: #d7d7d7;
+    background-color: #202328;
 }
 
-/* ########## TREE VIEW ########## */
+QListView {
+    font: 16px;
+    color: #d7d7d7;
+    alternate-background-color: #1d1d1d;
+    background-color: #202328;
+}
+
+QPushButton {
+    font: 16px;
+    color: #d7d7d7;
+    background-color: #282c34;
+    border-color: #202328;
+    border-width: 1px;
+}
+
+QToolTip {
+    font: 16px;
+    color: #d7d7d7;
+    background-color: #1c1f24;
+    border: none;
+}
 
 QTreeView {
-	font: 16px;
-	show-decoration-selected: 0;
+    font: 16px;
+    color: #d7d7d7;
+    alternate-background-color: #1d1d1d;
+    background-color: #202328;
 }
 
-QTreeView::item {
-	padding: 2px;
+#layoutSelector {
+    font: 16px;
+    color: #d7d7d7;
+    selection-background-color: #1c1f24;
 }
 
-QTreeView::branch:has-siblings:!adjoins-item {
-}
-QTreeView::branch:has-siblings:adjoins-item {
-}
-QTreeView::branch:!has-children:!has-siblings:adjoins-item {
-}
-QTreeView::branch:has-children:!has-siblings:closed,
-QTreeView::branch:closed:has-children:has-siblings {
-}
-QTreeView::branch:open:has-children:!has-siblings,
-QTreeView::branch:open:has-children:has-siblings  {
+#variantSelector {
+    font: 16px;
+    color: #d7d7d7;
+    selection-background-color: #1c1f24;
 }
 
-/* ########## CHECK BOX ########## */
-
-QCheckBox {
-}
-QCheckBox::indicator:unchecked {
-}
-QCheckBox::indicator:checked {
-}
-QItemSelectionModel::Select {
+#scrollAreaWidgetContents {
+    color: #d7d7d7;
 }
 
-/* ########## HEADER VIEW ########## */
-
-QHeaderView::section {
-  font : 16px;
+#defineInfoLabel { 
+    color: #d7d7d7;
 }
 
-#debugButton {
-	background-color: none;
-	font: 12px;
-	color: #edecf0;
-  height: 32px;
-  border: none;
-}
+/*
+QPushButton#aboutButton { qproperty-icon: url(:/data/images/release.svg); }
+#donateButton,
+#supportButton,
+#releaseNotesButton,
+#knownIssuesButton { qproperty-icon: url(:/data/images/help.svg); }
+*/
 
-#debugButton:hover {
-	color: #ff7f7f;
-}
+/*** Partitioning module.
+ *
+ * Many moving parts, which you will need to experiment with.
+ */
 
-#aboutButton {
-	background-color: none;
-	font: 12px;
-	color: #edecf0;
-  height: 32px;
-  border: none;
-}
+/*
+#bootInfoIcon { }
+#bootInfoLable { }
+#deviceInfoIcon { }
+#partitionBarView { }
+*/
+
+/*** Licensing module.
+ *
+ * The licensing module paints individual widgets for each of
+ * the licenses. The item can be collapsed or expanded.
+ */
+
+/*
+#licenseItem {  }
+#licenseItemFullText {  }
+*/
