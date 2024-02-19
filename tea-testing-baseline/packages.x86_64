@@ -91,10 +91,10 @@ cups
 neovim
 neofetch
 oh-my-zsh-git
-zsh-theme-powerlevel10k-git
+#zsh-theme-powerlevel10k-git
 noto-fonts-cjk
 noto-fonts-emoji
 yay
 
 ## Alci Calamares
-calamares
+#calamares
