@@ -91,11 +91,11 @@ networkmanager
 cups
 neovim
 neofetch
-oh-my-zsh-git
+#oh-my-zsh-git
 #zsh-theme-powerlevel10k-git
 noto-fonts-cjk
 noto-fonts-emoji
-yay
+#yay
 
 ## Alci Calamares
 #calamares

@@ -1,1 +1,9 @@
-/usr/lib/systemd/system/pcscd.socket
+[Unit]
+Description=PC/SC Smart Card Daemon Activation Socket
+
+[Socket]
+ListenStream=/run/pcscd/pcscd.comm
+SocketMode=0666
+
+[Install]
+WantedBy=sockets.target
