@@ -25,7 +25,7 @@ file_permissions=(
 
 	["/usr/local/bin/tea-installer"]="0:0:0755"
 
-#	["/usr/bin/calamares"]="1000:10:0755"
+	# ["/usr/bin/calamares"]="1000:10:0755"
 
 	["/etc/skel/.config"]="1000:10:0755"
 	["/etc/skel/.zshrc"]="1000:10:0755"
