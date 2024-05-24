@@ -1,0 +1,16 @@
+[org.gnome.shell]
+favorite-apps=['firefox.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Console.desktop']
+
+[org.gnome.desktop.background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///usr/share/tealinux/backgrounds/tealinux-wallpaper.png'
+picture-uri-dark='file:///usr/share/tealinux/backgrounds/tealinux-wallpaper-dark.png'
+primary-color='#57A6A1'
+secondary-color='#57A6A1'
+
+[org.gnome.desktop.interface]
+color-scheme='default'
+cursor-theme='Adwaita'
+gtk-theme='WhiteSur-Dark-green'
+icon-theme='WhiteSur-green-dark'
