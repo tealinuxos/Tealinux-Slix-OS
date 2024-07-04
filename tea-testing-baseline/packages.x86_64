@@ -49,7 +49,6 @@ wireless_tools
 zip
 unzip
 unrar
-zsh
 sudo
 edk2-shell
 intel-ucode
@@ -96,8 +95,13 @@ neofetch
 noto-fonts-cjk
 noto-fonts-emoji
 git
-eza
 #yay
+
+# Dependensi tealinux-installer
+tealinux-installer-git
+webkit2gtk
+lshw
+rsync
 
 ## Calamares
 #calamares

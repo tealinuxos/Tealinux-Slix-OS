@@ -27,6 +27,6 @@ file_permissions=(
 
 	# ["/usr/bin/calamares"]="1000:10:0755"
 
-	["/etc/skel/.config"]="1000:10:0755"
-	["/etc/skel/.zshrc"]="1000:10:0755"
+	# ["/etc/skel/.config"]="1000:10:0755"
+	# ["/etc/skel/.zshrc"]="1000:10:0755"
 )

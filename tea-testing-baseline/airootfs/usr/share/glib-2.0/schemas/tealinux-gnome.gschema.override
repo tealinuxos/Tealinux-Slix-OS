@@ -10,7 +10,7 @@ primary-color='#57A6A1'
 secondary-color='#57A6A1'
 
 [org.gnome.desktop.interface]
-color-scheme='default'
+color-scheme='prefer-dark'
 cursor-theme='Adwaita'
 gtk-theme='WhiteSur-Dark-green'
 icon-theme='WhiteSur-green-dark'
