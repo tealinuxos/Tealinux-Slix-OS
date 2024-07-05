@@ -22,6 +22,7 @@ file_permissions=(
 	["/etc/gshadow"]="0:0:0400"
 	["/etc/group"]="0:0:0400"
 	["/etc/pacman.conf"]="0:0:0644"
+	["/etc/pacman.d/mirrorlist"]="0:0:0644"
 
 	["/usr/local/bin/tea-installer"]="0:0:0755"
 
