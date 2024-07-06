@@ -1,0 +1,5 @@
+root:x:0:root
+adm:x:4:tea
+wheel:x:10:tea
+uucp:x:14:tea
+tea:x:1000:

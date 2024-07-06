@@ -1,0 +1,1 @@
+sudo -E python /opt/brewix-installer/main.py 

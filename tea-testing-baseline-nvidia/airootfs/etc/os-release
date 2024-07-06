@@ -1,0 +1,11 @@
+NAME="Tea Linux"
+PRETTY_NAME="Tea Linux"
+ID=arch
+BUILD_ID=rolling
+ANSI_COLOR="38;2;23;147;209"
+HOME_URL="https://tealinux.org/"
+DOCUMENTATION_URL="https://wiki.tealinux.org/"
+SUPPORT_URL="https://tealinux.org/"
+BUG_REPORT_URL="https://bugs.tealinux.org/"
+PRIVACY_POLICY_URL="https://tealinux.org/docs/privacy-policy/"
+LOGO=linux-logo

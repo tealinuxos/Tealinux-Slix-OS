@@ -1,0 +1,7 @@
+[Desktop Entry]
+Categories=Development;
+Exec=tealinux-installer
+Icon=tealinux-installer
+Name=tealinux-installer
+Terminal=false
+Type=Application
